@@ -1,0 +1,14 @@
+.container {
+  width: 45vw;
+  border: 1px solid magenta;
+  margin: auto;
+  margin-top: 20vh;
+}
+
+.container>* {
+  margin-block: 20px;
+}
+
+button+button {
+  margin-left: 20px;
+}
