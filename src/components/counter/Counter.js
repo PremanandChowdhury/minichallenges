@@ -38,7 +38,7 @@ export function Counter() {
         </button>
       </div>
 
-      <div>
+      <div className="inputContainer">
         <label className="label">Incerement/ Decrement by </label>
         <input
           type="number"

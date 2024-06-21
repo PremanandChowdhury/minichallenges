@@ -19,3 +19,7 @@ button+button {
   display: inline-block;
   margin-bottom: 1rem;
 }
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
