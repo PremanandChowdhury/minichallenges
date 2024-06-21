@@ -22,9 +22,9 @@ export function Counter() {
     <div className="container">
       <div
         style={{
-          textAlign: 'center',
-          marginBottom: '10px',
-          fontWeight: 'bold',
+          textAlign: "center",
+          marginBottom: "10px",
+          fontWeight: "bold",
         }}>
         {output}
       </div>
@@ -38,14 +38,16 @@ export function Counter() {
         </button>
       </div>
 
-      <label>Incerement/ Decrement by </label>
-      <input
-        type="number"
-        id="step"
-        value={inputVal}
-        onChange={(e) => setInputVal(e.target.value)}
-        title="Step value"
-      />
+      <div>
+        <label className="label">Incerement/ Decrement by </label>
+        <input
+          type="number"
+          id="step"
+          value={inputVal}
+          onChange={(e) => setInputVal(e.target.value)}
+          title="Step value"
+        />
+      </div>
 
       <div>
         <button onClick={handleReset}>Reset</button>
